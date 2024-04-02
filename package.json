@@ -1,12 +1,12 @@
 {
-  "name": "plugin-sample-vite-svelte",
-  "version": "0.3.2",
+  "name": "siyuan-auto-link-title",
+  "version": "0.0.1",
   "type": "module",
-  "description": "This is a sample plugin based on vite and svelte for Siyuan (https://b3log.org/siyuan)",
+  "description": "Automatically fetch the titles of pasted links",
   "repository": "",
   "homepage": "",
-  "author": "",
-  "license": "MIT",
+  "author": "养恐龙",
+  "license": "WTFPL",
   "scripts": {
     "make-link": "node  --no-warnings ./scripts/make_dev_link.js",
     "dev": "vite build --watch",

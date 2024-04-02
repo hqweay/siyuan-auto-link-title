@@ -1,8 +1,8 @@
 {
-  "name": "plugin-sample-vite-svelte",
-  "author": "frostime",
-  "url": "https://github.com/siyuan-note/plugin-sample-vite-svelte",
-  "version": "0.3.4",
+  "name": "siyuan-auto-link-title",
+  "author": "养恐龙",
+  "url": "https://github.com/hqweay/siyuan-auto-link-title",
+  "version": "0.0.1",
   "minAppVersion": "3.0.0",
   "backends": [
     "windows",
@@ -19,16 +19,16 @@
     "desktop-window"
   ],
   "displayName": {
-    "en_US": "Plugin sample with vite and svelte",
-    "zh_CN": "插件样例 vite + svelte 版"
+    "en_US": "Automatically fetch the titles of pasted links",
+    "zh_CN": "自动获取链接标题"
   },
   "description": {
-    "en_US": "SiYuan plugin sample with vite and svelte",
-    "zh_CN": "使用 vite 和 svelte 开发的思源插件样例"
+    "en_US": "Automatically fetch the titles of pasted links",
+    "zh_CN": "自动获取链接标题"
   },
   "readme": {
     "en_US": "README.md",
-    "zh_CN": "README_zh_CN.md"
+    "zh_CN": "README.md"
   },
   "funding": {
     "custom": [
@@ -36,6 +36,6 @@
     ]
   },
   "keywords": [
-    "plugin", "sample", "插件样例"
+    "plugin", "link", "链接"
   ]
 }
