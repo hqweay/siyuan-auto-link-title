@@ -74,9 +74,9 @@ export default class AutoLinkTitle {
       if (!data || data.status !== 200) {
         return "";
       }
-      if (!data.headers["Content-Type"].includes("text/html")) {
-        return getUrlFinalSegment(url);
-      }
+      // if (!data.headers["Content-Type"].includes("text/html")) {
+      //   return getUrlFinalSegment(url);
+      // }
 
       let html = data?.body;
 
