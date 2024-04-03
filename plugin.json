@@ -2,9 +2,15 @@
   "name": "siyuan-auto-link-title",
   "author": "养恐龙",
   "url": "https://github.com/hqweay/siyuan-auto-link-title",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "minAppVersion": "3.0.0",
-  "backends": ["windows", "linux", "darwin", "ios", "android"],
+  "backends": [
+    "windows",
+    "linux",
+    "darwin",
+    "ios",
+    "android"
+  ],
   "frontends": [
     "desktop",
     "mobile",
@@ -25,7 +31,13 @@
     "zh_CN": "README.md"
   },
   "funding": {
-    "custom": ["https://afdian.net/a/frostime"]
+    "custom": [
+      "https://afdian.net/a/frostime"
+    ]
   },
-  "keywords": ["plugin", "link", "链接"]
+  "keywords": [
+    "plugin",
+    "link",
+    "链接"
+  ]
 }
