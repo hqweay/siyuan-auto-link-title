@@ -74,10 +74,12 @@ export default class AutoLinkTitle {
       if (!data || data.status !== 200) {
         return "";
       }
-      // if (!data.headers["Content-Type"].includes("text/html")) {
-      //   return getUrlFinalSegment(url);
-      // }
 
+      data.headers["Content-Type"].forEach((ele) => {
+        if (!ele.includes("text/html")) {
+          return getUrlFinalSegment(url);
+        }
+      });
       let html = data?.body;
 
       const doc = new DOMParser().parseFromString(html, "text/html");
